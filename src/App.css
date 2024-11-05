@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+#root {
+  font-family: "DM Sans", sans-serif;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 100.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+  color: black;
+  font-size: 20px;
+}
+
+.slick-next:before {
+  margin-left: -7px;
+}
+
+.slick-prev {
+  z-index: 99999;
+}
+
+.animated-background {
+  background-size: 400%;
+
+  -webkit-animation: animation 3s ease infinite;
+  -moz-animation: animation 3s ease infinite;
+  animation: animation 3s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+      background-position: 0% 50%;
+  }
+  
+  50% {
+      background-position: 100% 50%;
+  }
+}
+
+.trapezoid {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background: linear-gradient(140deg, rgba(99, 99, 239, 1) 20%, rgba(99, 99, 239, 0.6) 80%);
+  /*height: 60vh;  Adjust based on your design */
+}
+
+/* @keyframes gradient-animation {
+  0% {
+    background-color: rgba(99, 99, 239, 1);
+  }
+  64% {
+    background-color: rgba(99, 99, 239, 0.6);
+  }
+  100% {
+    background-color: rgba(99, 99, 239, 0.6);
+  }
+} */
+
+/* .animated-background-login {
+  background: linear-gradient(45deg, rgba(99, 99, 239, 1) 0%, rgba(99, 99, 239, 0.6) 64%);
+  animation: gradient-animation 5s ease infinite;
+} */
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
