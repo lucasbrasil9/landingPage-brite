@@ -57,7 +57,7 @@
 } */
 
 .gradient-bg {
-  background: linear-gradient(to top right, #f3f3f3, #f3f3f3 75%, #b3b3f798 99%, #6363ef67);
+  background: linear-gradient(to top right, #f3f3f3, #f3f3f3 70%, #b3b3f7a3 95%, #6363ef7b);
   background-size: cover;
 }
 

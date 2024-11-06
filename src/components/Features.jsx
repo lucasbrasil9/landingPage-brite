@@ -9,21 +9,21 @@ import { AiOutlineFileSearch } from "react-icons/ai";
 
 const Features = () => {
   return (
-    <section class="flex w-full pb-48 pt-48 justify-center">
+    <section class="flex w-full pt-44 md:pt-52 justify-center">
       <div class="max-w-7xl px-8 lg:px-0">
-        <div className="w-full flex flex-col pb-10 md:pb-20 justify-center">
-          <h1 className="font-bold pb-4 text-2xl md:text-5xl text-center"><span className="text-brite">Otimize e Simplifique</span>  <br /> cada <span className="text-brite">Interação</span>  com seus pacientes</h1>
-          <p className="text-center font-semibold text-sm md:text-base text-gray-500">A brite por meio de IA aprimora a comunicação no seu Whatsapp  a partir de features <br /> que permitem que o foco passe a ser no paciente</p>
+        <div className="w-full flex flex-col pb-16 md:pb-20 justify-center">
+          <h1 className="font-bold pb-4 max-w-72 md:max-w-2xl text-3xl mx-auto md:text-5xl text-center"><span className="text-brite">Obtenha Insights</span> para cada <span className="text-brite">Interação</span> com seus Pacientes</h1>
+          <p className="text-center font-semibold max-w-64 md:max-w-2xl mx-auto text-sm md:text-base text-gray-500">A brite por meio de IA aprimora a comunicação no seu Whatsapp a partir de features que permitem que o foco passe a ser no paciente</p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 text-center md:pl-20 md:text-left gap-y-8 md:divide-x-2 lg:grid-cols-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 text-center md:pl-20 md:text-left gap-y-10 md:divide-x-2 lg:grid-cols-4">
           <div className="px-10">
             <div class="flex items-center justify-center mx-auto md:mx-0 md:justify-start w-20 h-20">
               <IoFlashOutline  size={40} style={{color: "#00425C"}} className=""/>
             </div>
-            <h3 class="mt-4 text-xl font-semibold text-black">
+            <h3 class="text-xl font-semibold text-black">
               Centralização
             </h3>
-            <p class="mt-4 text-gray-600">
+            <p class="mt-2 text-gray-600">
               As mensagens, os números e os contatos que enviaram mensagem no Whatsapp ficam disponíveis e centralizados na plataforma
             </p>
           </div>
@@ -32,10 +32,10 @@ const Features = () => {
             <div class="flex items-center justify-center mx-auto md:mx-0 md:justify-start w-20 h-20">
               <AiOutlineFileSearch size={40} style={{color: "#6A42D8"}} className=""/>
             </div>
-            <h3 class="mt-4 text-xl font-semibold text-black">
+            <h3 class="text-xl font-semibold text-black">
               Resumos
             </h3>
-            <p class="mt-4 text-base text-gray-600">
+            <p class="mt-2 text-base text-gray-600">
               Geramos resumos das conversas com cada contato que enviou mensagem, destacando os interesses e pontos importantes nas mensagens
             </p>
           </div>
@@ -44,10 +44,10 @@ const Features = () => {
             <div class="flex items-center justify-center mx-auto md:mx-0 md:justify-start w-20 h-20">
               <LuBarChartHorizontalBig size={40} style={{color: "#5C4AAE"}} className=""/>
             </div>
-            <h3 class="mt-4 text-xl font-semibold text-black">
+            <h3 class="text-xl font-semibold text-black">
               Classificação
             </h3>
-            <p class="mt-4 text-base text-gray-600">
+            <p class="mt-2 text-base text-gray-600">
               Classificamos as mensagens de cada contato em categorias definidas pelo cliente, gerando a porcentagem presente em cada conversa
             </p>
           </div>
@@ -56,8 +56,8 @@ const Features = () => {
             <div class="flex items-center justify-center mx-auto md:mx-0 md:justify-start w-20 h-20">
               <FaTemperatureHalf size={40} style={{color: "#AD2717"}}/>
             </div>
-            <h3 class="mt-4 text-xl font-semibold text-black">Temperatura</h3>
-            <p class="mt-4 text-base text-gray-600">
+            <h3 class="text-xl font-semibold text-black">Temperatura</h3>
+            <p class="mt-2 text-base text-gray-600">
               Quantificamos o interesse de cada cliente, que enviou mensagem, em agendar uma consulta, fazer orçamento, etc.
             </p>
           </div>

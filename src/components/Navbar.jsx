@@ -19,9 +19,12 @@ const Navbar = () => {
     <div className="sticky top-0 w-full p-2 md:px-3 z-50 shadow-md bg-gray-100">
       <div className="w-full h-full flex justify-between items-center px-5">
         <div className="justify-center items-center">
-          <button onClick={() => navigate("/")}>
+          {/* <button onClick={() => navigate("/")}>
             <img src={logo_blue} className="h-[28px] cursor-pointer" />
-          </button>
+          </button> */}
+          <Link to="hero" duration={500} smooth={true} onClick={closeMenu}>
+            <img src={logo_blue} className="h-[28px] cursor-pointer" />
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center">
@@ -76,14 +79,14 @@ const Navbar = () => {
           </button>
         </div> */}
 
-        <div className="md:hidden py-3" onClick={handleClick}>
+        <div className="md:hidden py-1.5" onClick={handleClick}>
           {toggle ? (
-            <button className="bg-white p-1.5 rounded-full scale-110 shadow-lg">
-              <RxCross2 className="text-brite font-semibold" size={25} />
+            <button className="bg-white p-1.5 rounded-full shadow-lg">
+              <RxCross2 className="text-brite font-semibold" size={20} />
             </button>
           ) : (
-            <button className="bg-white p-1.5 rounded-full scale-110 shadow-lg">
-              <RxHamburgerMenu className="text-brite font-semibold" size={25} />
+            <button className="bg-white p-1.5 rounded-full shadow-lg">
+              <RxHamburgerMenu className="text-brite font-semibold" size={20} />
             </button>
           )}
         </div>
@@ -105,14 +108,14 @@ const Navbar = () => {
             </button> */}
 
             <button
-              onClick={() => navigate("/pricing")}
+              onClick={() => navigateCloseMenu("/pricing")}
               className="hover:text-brite active:text-brite-active focus:outline-none"
             >
               Preços
             </button>
 
             <button className="hover:text-brite active:text-brite-hover focus:outline-none">
-              <Link to="benefits" duration={500} smooth={true}>
+              <Link to="benefits" duration={500} smooth={true} onClick={closeMenu}>
                 Recursos
               </Link>
             </button>

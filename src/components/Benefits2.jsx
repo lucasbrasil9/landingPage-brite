@@ -4,11 +4,11 @@ import { TbDeviceAnalytics } from "react-icons/tb";
 
 const Benefits2 = () => {
   return (
-    <section class="pb-32 pt-20 lg:pb-44">
+    <section class="pb-32 pt-40 md:pt-56 lg:pb-44">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
           <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            Como Entregamos a <span className="text-brite">Solução</span>
+            Como Entregamos a <span className="text-brite">Solução Brite</span>
           </h2>
           <p class="max-w-lg mx-auto mt-4 leading-relaxed text-center font-semibold text-sm md:text-base text-gray-500">
             Com a tecnologia da brite, sua comunicação com pacientes se torna
