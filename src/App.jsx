@@ -9,6 +9,7 @@ import {
   Register,
   Pricing,
   PrivacyPolicy,
+  TermsOfService,
 } from "./components";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />

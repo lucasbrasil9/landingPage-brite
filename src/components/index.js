@@ -13,6 +13,7 @@ import HomePage from "../pages/HomePage";
 import Register from "../pages/Register";
 import Pricing from "../pages/Pricing";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsOfService from "../pages/TermsOfService";
 import PricingList from "./PricingList";
 
-export { Navbar, Hero, Features, Benefits, Testimonials, Faq, Cta, Footer, Login, HomePage, NotFound, Master, Register, Pricing, PrivacyPolicy, PricingList };
+export { Navbar, Hero, Features, Benefits, Testimonials, Faq, Cta, Footer, Login, HomePage, NotFound, Master, Register, Pricing, PrivacyPolicy, TermsOfService, PricingList };
