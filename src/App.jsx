@@ -8,6 +8,7 @@ import {
   Master,
   Register,
   Pricing,
+  PrivacyPolicy,
 } from "./components";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Master />}>
           <Route index element={<HomePage />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
